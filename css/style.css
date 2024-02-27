@@ -1,0 +1,77 @@
+body {
+    background-image: url(../images/blur-clean.jpg);
+}
+
+.h1c {
+    color: white;
+    font-size: 200px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.h1S1 {
+    color: white;
+    font-size: 200px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.h1S2 {
+    color: white;
+    font-size: 200px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.c {
+    animation: drop 2s forwards infinite;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    background: rgba(0, 40, 50, 0.7)
+}
+
+.s1 {
+    animation: drop 2s forwards infinite;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    background: rgba(197, 39, 50, 0.7)
+}
+
+.s2 {
+    animation: drop 2s forwards infinite;
+    position: absolute;
+    top: 300px;
+    left: 1400px;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    background: rgba(255, 152, 50, 0.7)
+}
+
+@keyframes drop {
+    0% {top: 0;}
+    100% {top: 300px; }
+}
+
+@keyframes drop {
+    0% {top: 0;}
+    100% {top: 300px; }
+}
+@keyframes drop {
+    0% {top: 0;}
+    100% {top: 300px; }
+}
